@@ -1,49 +1,42 @@
-# Hi, I'm 曼宁 👋
+<img src="./assets/hero.svg" width="100%" alt="MN0709 AI product workspace" />
 
-![MN0709 profile terminal](./assets/profile-terminal.svg)
+## About me
 
-**AI Product Builder · Product Manager · Focused on Agent Workflows & AI Products**
+Building AI products around real workflows.
 
-我在做能真正进入工作流的 AI 产品：把会议内容转成可追溯的决策与行动，把摩托车改装知识转成可检索、可引用的 RAG 能力。
+I turn product questions into testable workflows, focused prototypes, and evidence-backed decisions. My recent work spans meeting intelligence, RAG-powered knowledge retrieval, and reusable agent workflows.
 
----
+### What I care about
 
-## Featured projects
+- **Start with the real problem.** Understand the user and the task before choosing a model or tool.
+- **Make the workflow testable.** Turn an idea into a focused prototype with clear boundaries.
+- **Learn from evidence.** Use real outcomes, feedback, and evaluation to decide what to improve next.
 
-### 🎙️ meeting-review
+<img src="./assets/divider.svg" width="96" height="12" alt="" />
 
-面向固定团队的会议决策与行动复盘工具。支持带时间戳转写、决策原话引用、结构化行动项和团队隔离的历史记录；原始音频在处理完成或失败后删除。
+## Selected work
 
-`Private project` · FastAPI · SQLite · faster-whisper · LLM workflow
+### meeting-review
 
-### 🏍️ [MotoViz](https://github.com/MN0709/MotoViz)
+*Private project*
 
-面向摩托车改装店的团队 MVP，通过 3D 改装效果改善销售沟通，并用 RAG 支持配件检索与故障诊断。
+A meeting review tool for fixed teams that turns timestamped transcripts into traceable decisions and structured action items. Meeting history is isolated by team, while original audio is removed after processing.
 
-**My role:** RAG Lead，负责知识检索方向的任务协调、接口协作与交付验收。
+### [MotoViz](https://github.com/MN0709/MotoViz)
 
----
+A team MVP for motorcycle customization shops, combining 3D visualization with RAG-powered parts search and fault diagnosis.
+
+**My role:** RAG Lead, coordinating the knowledge retrieval track, interface collaboration, and delivery acceptance.
+
+<img src="./assets/divider.svg" width="96" height="12" alt="" />
 
 ## Writing
 
-我关注 AI 产品、Agent 工作流，以及技术变化如何影响产品决策。
+- [Could Skills Become the App Store of the AI Era?](https://mp.weixin.qq.com/s/0q1qbYREkA4SQyrLRZ05Kw) *(Chinese)* — What changes when workflows and domain methods become reusable modules for AI agents.
+- [When Phones Cost ¥1,000 More, Should AI Products Leave Users a Way Out?](https://mp.weixin.qq.com/s/RsIjyleZqIkPkUU8D_Uhjw) *(Chinese)* — A product perspective on rising infrastructure costs, pricing, trust, and graceful downgrade paths.
+- [NVIDIA's $12.93 Billion Bet on the “GitHub of AI”](https://mp.weixin.qq.com/s/gTfkKZahSCrVTfAFxS__-Q) *(Chinese)* — What the Hugging Face acquisition could mean for AI infrastructure, dependency risk, and product strategy.
 
-- [Skill 会成为 AI 时代的“App Store”吗？从一个开源写作 Skill 的拆解说起](https://mp.weixin.qq.com/s/0q1qbYREkA4SQyrLRZ05Kw)
-- [手机涨价 1000 元，AI 产品经理要不要给用户留一条退路](https://mp.weixin.qq.com/s/RsIjyleZqIkPkUU8D_Uhjw)
-- [129.3 亿美元，英伟达把“AI 界的 GitHub”买走了](https://mp.weixin.qq.com/s/gTfkKZahSCrVTfAFxS__-Q)
+## Find me
 
----
-
-## About
-
-- Building AI product MVPs around real workflows
-- Exploring Agent workflows, RAG and reusable skills
-- Turning product questions into testable prototypes and clearer decisions
-- Learning in public through projects and writing
-
----
-
-## Contact
-
-✉️ [mini.ning9900@gmail.com](mailto:mini.ning9900@gmail.com)
+[GitHub](https://github.com/MN0709) · [Email](mailto:mini.ning9900@gmail.com)
 

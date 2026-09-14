@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">MN0709 AI product workspace</title>
+  <desc id="desc">A minimal workspace illustrating a path from product problems to workflows and evidence.</desc>
+
+  <rect width="1200" height="480" rx="28" fill="#F7F4EE"/>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="70" y="145" fill="#20252A" font-size="68" font-weight="700" letter-spacing="-2">MN0709</text>
+    <text x="72" y="190" fill="#6E8293" font-size="19" font-weight="700" letter-spacing="3">AI PRODUCT BUILDER</text>
+    <rect x="72" y="224" width="52" height="4" rx="2" fill="#9BAE9B"/>
+    <text x="72" y="278" fill="#3E464D" font-size="27" font-weight="500">From product questions</text>
+    <text x="72" y="318" fill="#3E464D" font-size="27" font-weight="500">to testable AI workflows.</text>
+    <text x="72" y="393" fill="#7B838A" font-size="16" letter-spacing="0.5">PROBLEM  ·  WORKFLOW  ·  EVIDENCE</text>
+  </g>
+
+  <g fill="none" stroke="#6E8293" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M720 152 C760 115 804 115 844 152"/>
+    <path d="M882 152 C922 115 966 115 1006 152"/>
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1">
+    <g>
+      <rect x="650" y="108" width="142" height="68" rx="14" fill="#FFFFFF" stroke="#D9D8D2" stroke-width="2"/>
+      <circle cx="676" cy="134" r="8" fill="#C7D1DA"/>
+      <text x="694" y="139" fill="#56646F">PROBLEM</text>
+      <path d="M676 151h88" stroke="#E5E4DF" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="812" y="108" width="142" height="68" rx="14" fill="#FFFFFF" stroke="#D9D8D2" stroke-width="2"/>
+      <circle cx="838" cy="134" r="8" fill="#9BAE9B"/>
+      <text x="856" y="139" fill="#56646F">WORKFLOW</text>
+      <path d="M838 151h88" stroke="#E5E4DF" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="974" y="108" width="142" height="68" rx="14" fill="#FFFFFF" stroke="#D9D8D2" stroke-width="2"/>
+      <circle cx="1000" cy="134" r="8" fill="#6E8293"/>
+      <text x="1018" y="139" fill="#56646F">EVIDENCE</text>
+      <path d="M1000 151h88" stroke="#E5E4DF" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <rect x="727" y="211" width="292" height="174" rx="16" fill="#313A42"/>
+    <rect x="738" y="222" width="270" height="151" rx="8" fill="#EEF1EF"/>
+    <circle cx="788" cy="295" r="16" fill="#C7D1DA"/>
+    <circle cx="873" cy="295" r="16" fill="#9BAE9B"/>
+    <circle cx="958" cy="295" r="16" fill="#6E8293"/>
+    <path d="M808 295h43" fill="none" stroke="#778690" stroke-width="3"/>
+    <path d="M839 286l12 9-12 9" fill="none" stroke="#778690" stroke-width="3"/>
+    <path d="M893 295h43" fill="none" stroke="#778690" stroke-width="3"/>
+    <path d="M924 286l12 9-12 9" fill="none" stroke="#778690" stroke-width="3"/>
+    <rect x="769" y="337" width="178" height="7" rx="3.5" fill="#D5DBD7"/>
+    <path d="M700 392h346l-24 17H724z" fill="#D9D8D2" stroke="#313A42" stroke-width="4"/>
+
+    <rect x="1038" y="278" width="96" height="119" rx="8" fill="#FFFFFF" stroke="#9BAE9B" stroke-width="3" transform="rotate(4 1038 278)"/>
+    <path d="M1060 309h51M1060 329h42M1060 349h48" fill="none" stroke="#C7D1C8" stroke-width="5"/>
+    <path d="M1108 378l24-46" fill="none" stroke="#6E8293" stroke-width="7"/>
+    <path d="M1132 332l6-11" fill="none" stroke="#313A42" stroke-width="3"/>
+
+    <path d="M632 411h522" fill="none" stroke="#313A42" stroke-width="4"/>
+    <path d="M681 411v31M1102 411v31" fill="none" stroke="#313A42" stroke-width="5"/>
+  </g>
+</svg>

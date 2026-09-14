@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="12" viewBox="0 0 96 12" role="img" aria-label="Section divider">
+  <rect x="0" y="4" width="38" height="4" rx="2" fill="#6E8293"/>
+  <circle cx="51" cy="6" r="4" fill="#9BAE9B"/>
+  <circle cx="65" cy="6" r="4" fill="#C7D1DA"/>
+  <rect x="76" y="4" width="20" height="4" rx="2" fill="#D9D8D2"/>
+</svg>
