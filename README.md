@@ -32,6 +32,7 @@ A team MVP for motorcycle customization shops, combining 3D visualization with R
 
 ## Writing
 
+- [50 个 Agent 一个月烧掉 $48,600：它们死于“衰老”，不是模型不行](https://mp.weixin.qq.com/s/RbJfMZOdl1smIzcddewcQw) *(Chinese)*
 - [466 个视频案例、25 套模板，这位博主把 Seedance 玩法整理开源了](https://mp.weixin.qq.com/s/RPRpMA8Yz_sAH0ftCYwIfw) *(Chinese)*
 - [Could Skills Become the App Store of the AI Era?](https://mp.weixin.qq.com/s/0q1qbYREkA4SQyrLRZ05Kw) *(Chinese)* — What changes when workflows and domain methods become reusable modules for AI agents.
 - [When Phones Cost ¥1,000 More, Should AI Products Leave Users a Way Out?](https://mp.weixin.qq.com/s/RsIjyleZqIkPkUU8D_Uhjw) *(Chinese)* — A product perspective on rising infrastructure costs, pricing, trust, and graceful downgrade paths.
