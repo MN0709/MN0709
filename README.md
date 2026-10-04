@@ -32,6 +32,7 @@ A team MVP for motorcycle customization shops, combining 3D visualization with R
 
 ## Writing
 
+- [AI视频提示词总翻车？这个15秒电影感Skill，免费送](https://mp.weixin.qq.com/s/WKaOWsEiCgC_4gpqy7PQqA) *(Chinese)*
 - [AI 出图没有故事感？问题出在提示词里没有“导演”](https://mp.weixin.qq.com/s/oyRt9fqH-uVuAhnrBbwpgQ) *(Chinese)*
 - [AI生图一出手就露馅？问题不在模型，在你写的提示词](https://mp.weixin.qq.com/s/JzZGPTQE_XgYOK3Pa73n_A) *(Chinese)*
 - [每天省回 3 小时：他把「刷 X 找选题」整个外包给了 Grok](https://mp.weixin.qq.com/s/iFhSuHmabYDnM0LQNDPglQ) *(Chinese)*
