@@ -32,6 +32,7 @@ A team MVP for motorcycle customization shops, combining 3D visualization with R
 
 ## Writing
 
+- [AI 短片为什么总拍出“廉价感”？从一个开源提示词 Skill 说起](https://mp.weixin.qq.com/s/uZz9UYeea2hLUhraux4-jw) *(Chinese)*
 - [AI视频提示词总翻车？这个15秒电影感Skill，免费送](https://mp.weixin.qq.com/s/WKaOWsEiCgC_4gpqy7PQqA) *(Chinese)*
 - [AI 出图没有故事感？问题出在提示词里没有“导演”](https://mp.weixin.qq.com/s/oyRt9fqH-uVuAhnrBbwpgQ) *(Chinese)*
 - [AI生图一出手就露馅？问题不在模型，在你写的提示词](https://mp.weixin.qq.com/s/JzZGPTQE_XgYOK3Pa73n_A) *(Chinese)*
@@ -49,4 +50,3 @@ A team MVP for motorcycle customization shops, combining 3D visualization with R
 ## Find me
 
 [GitHub](https://github.com/MN0709) · [Email](mailto:mini.ning9900@gmail.com)
-
