@@ -1,0 +1,20 @@
+# 写作归档
+
+这里收录 GitHub 主页展示过的公开文章。按原主页的顺序排列；文章标题与链接保持原样。
+
+- [AI 短片为什么总拍出“廉价感”？从一个开源提示词 Skill 说起](https://mp.weixin.qq.com/s/uZz9UYeea2hLUhraux4-jw) *(Chinese)*
+- [AI视频提示词总翻车？这个15秒电影感Skill，免费送](https://mp.weixin.qq.com/s/WKaOWsEiCgC_4gpqy7PQqA) *(Chinese)*
+- [AI 出图没有故事感？问题出在提示词里没有“导演”](https://mp.weixin.qq.com/s/oyRt9fqH-uVuAhnrBbwpgQ) *(Chinese)*
+- [AI生图一出手就露馅？问题不在模型，在你写的提示词](https://mp.weixin.qq.com/s/JzZGPTQE_XgYOK3Pa73n_A) *(Chinese)*
+- [每天省回 3 小时：他把「刷 X 找选题」整个外包给了 Grok](https://mp.weixin.qq.com/s/iFhSuHmabYDnM0LQNDPglQ) *(Chinese)*
+- [50 个 Agent 一个月烧掉 $48,600：它们死于“衰老”，不是模型不行](https://mp.weixin.qq.com/s/RbJfMZOdl1smIzcddewcQw) *(Chinese)*
+- [Opus 5.5 负责想，Jev 负责选：agent 省钱的真正位置不在模型里](https://mp.weixin.qq.com/s/kw4bCClqDAOMMTQK2T-m0w) *(Chinese)*
+- [466 个视频案例、25 套模板，这位博主把 Seedance 玩法整理开源了](https://mp.weixin.qq.com/s/RPRpMA8Yz_sAH0ftCYwIfw) *(Chinese)*
+- [Could Skills Become the App Store of the AI Era?](https://mp.weixin.qq.com/s/0q1qbYREkA4SQyrLRZ05Kw) *(Chinese)* — What changes when workflows and domain methods become reusable modules for AI agents.
+- [When Phones Cost ¥1,000 More, Should AI Products Leave Users a Way Out?](https://mp.weixin.qq.com/s/RsIjyleZqIkPkUU8D_Uhjw) *(Chinese)* — A product perspective on rising infrastructure costs, pricing, trust, and graceful downgrade paths.
+- [NVIDIA's $12.93 Billion Bet on the “GitHub of AI”](https://mp.weixin.qq.com/s/gTfkKZahSCrVTfAFxS__-Q) *(Chinese)* — What the Hugging Face acquisition could mean for AI infrastructure, dependency risk, and product strategy.
+- [人负责偶遇，算法负责引爆：5万粉博主采访到了黑道大佬](https://mp.weixin.qq.com/s/2HRmbR2oRsVnUm00kPPtBw) *(Chinese)*
+- [A800 显卡抢不到的那天，我才明白大模型时代的算力到底有多缺](https://mp.weixin.qq.com/s/0BbY7I5e3Iu8QFaULEXpZA) *(Chinese)*
+- [AI 写作为什么总有一股“AI 味”？从一个开源写作 Skill 看大模型的语言习惯](https://mp.weixin.qq.com/s/9Fog_QIVS1Ly4SYLVWgBrw) *(Chinese)*
+
+[← 返回主页](./README.md)

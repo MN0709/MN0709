@@ -1,36 +1,43 @@
-<img src="./assets/hero.svg" width="100%" alt="MN0709 AI product workspace" />
+# 你好，我是马宁 👋
 
-## About me
+<p align="center">
+  <a href="https://mn0709.github.io/"><img width="1000" src="./assets/portfolio-launch.svg" alt="马宁的 AI 产品工作台：动态终端与人物动作，点击访问个人网站" /></a>
+</p>
 
-Building AI products around real workflows.
+<p align="center"><sub>点击上方工作台，打开我的个人网站</sub></p>
 
-I turn product questions into testable workflows, focused prototypes, and evidence-backed decisions. My recent work spans meeting intelligence, RAG-powered knowledge retrieval, and reusable agent workflows.
+<p align="center">
+  🌐 <a href="https://mn0709.github.io/">个人网站</a> · 🧩 <a href="https://github.com/MN0709?tab=repositories">开源项目</a> · ✍️ <a href="./ARTICLES.md">全部文章</a> · ✉️ <a href="mailto:mini.ning9900@gmail.com">邮箱</a>
+</p>
 
-### What I care about
+---
 
-- **Start with the real problem.** Understand the user and the task before choosing a model or tool.
-- **Make the workflow testable.** Turn an idea into a focused prototype with clear boundaries.
-- **Learn from evidence.** Use real outcomes, feedback, and evaluation to decide what to improve next.
+## ⭐ 精选项目
 
-<img src="./assets/divider.svg" width="96" height="12" alt="" />
+我关注真实任务中的 AI 产品：先弄清问题，再做可验证的工作流，最后用证据决定下一步。
 
-## Selected work
+<p>
+  <a href="https://github.com/MN0709/meeting-review"><img width="49%" src="./assets/project-covers/meeting-review.svg" alt="会脉：本机会议记录与带原话证据的回顾" /></a>
+  <a href="https://github.com/MN0709/DeskResearch"><img width="49%" src="./assets/project-covers/desk-research.svg" alt="DeskResearch：本地优先的调研 Agent 与带引用的导出" /></a>
+</p>
 
-### meeting-review
+<p>
+  <a href="https://github.com/MN0709/MotoViz"><img width="49%" src="./assets/project-covers/motoviz.svg" alt="MotoViz：摩托车改装店的 3D 展示与 RAG 检索团队 MVP；我负责 RAG 方向" /></a>
+  <a href="https://github.com/MN0709/15s-scene-director-lite"><img width="49%" src="./assets/project-covers/scene-director.svg" alt="15 秒剧情镜头导演：将动作连续性整理成视频提示词 Skill" /></a>
+</p>
 
-*Private project*
+<p>
+  <a href="https://github.com/MN0709/light-fresh-short-film"><img width="49%" src="./assets/project-covers/light-fresh-film.svg" alt="光感小清新短片：5 至 30 秒中文短片提示词 Skill" /></a>
+  <a href="https://mn0709.github.io/"><img width="49%" src="./assets/project-covers/personal-site.svg" alt="马宁的个人网站：AI 产品与实践作品入口" /></a>
+</p>
 
-A meeting review tool for fixed teams that turns timestamped transcripts into traceable decisions and structured action items. Meeting history is isolated by team, while original audio is removed after processing.
+其中 [MotoViz](https://github.com/MN0709/MotoViz) 是团队 MVP；我负责 RAG 方向的协调、检索工作与交付验收。
 
-### [MotoViz](https://github.com/MN0709/MotoViz)
+---
 
-A team MVP for motorcycle customization shops, combining 3D visualization with RAG-powered parts search and fault diagnosis.
+## ✍️ 写作
 
-**My role:** RAG Lead, coordinating the knowledge retrieval track, interface collaboration, and delivery acceptance.
-
-<img src="./assets/divider.svg" width="96" height="12" alt="" />
-
-## Writing
+记录 AI 产品、Agent 工作流与创作实践。这里先展示六篇文章。
 
 - [AI 短片为什么总拍出“廉价感”？从一个开源提示词 Skill 说起](https://mp.weixin.qq.com/s/uZz9UYeea2hLUhraux4-jw) *(Chinese)*
 - [AI视频提示词总翻车？这个15秒电影感Skill，免费送](https://mp.weixin.qq.com/s/WKaOWsEiCgC_4gpqy7PQqA) *(Chinese)*
@@ -38,16 +45,15 @@ A team MVP for motorcycle customization shops, combining 3D visualization with R
 - [AI生图一出手就露馅？问题不在模型，在你写的提示词](https://mp.weixin.qq.com/s/JzZGPTQE_XgYOK3Pa73n_A) *(Chinese)*
 - [每天省回 3 小时：他把「刷 X 找选题」整个外包给了 Grok](https://mp.weixin.qq.com/s/iFhSuHmabYDnM0LQNDPglQ) *(Chinese)*
 - [50 个 Agent 一个月烧掉 $48,600：它们死于“衰老”，不是模型不行](https://mp.weixin.qq.com/s/RbJfMZOdl1smIzcddewcQw) *(Chinese)*
-- [Opus 5.5 负责想，Jev 负责选：agent 省钱的真正位置不在模型里](https://mp.weixin.qq.com/s/kw4bCClqDAOMMTQK2T-m0w) *(Chinese)*
-- [466 个视频案例、25 套模板，这位博主把 Seedance 玩法整理开源了](https://mp.weixin.qq.com/s/RPRpMA8Yz_sAH0ftCYwIfw) *(Chinese)*
-- [Could Skills Become the App Store of the AI Era?](https://mp.weixin.qq.com/s/0q1qbYREkA4SQyrLRZ05Kw) *(Chinese)* — What changes when workflows and domain methods become reusable modules for AI agents.
-- [When Phones Cost ¥1,000 More, Should AI Products Leave Users a Way Out?](https://mp.weixin.qq.com/s/RsIjyleZqIkPkUU8D_Uhjw) *(Chinese)* — A product perspective on rising infrastructure costs, pricing, trust, and graceful downgrade paths.
-- [NVIDIA's $12.93 Billion Bet on the “GitHub of AI”](https://mp.weixin.qq.com/s/gTfkKZahSCrVTfAFxS__-Q) *(Chinese)* — What the Hugging Face acquisition could mean for AI infrastructure, dependency risk, and product strategy.
-- [人负责偶遇，算法负责引爆：5万粉博主采访到了黑道大佬](https://mp.weixin.qq.com/s/2HRmbR2oRsVnUm00kPPtBw) *(Chinese)*
-- [A800 显卡抢不到的那天，我才明白大模型时代的算力到底有多缺](https://mp.weixin.qq.com/s/0BbY7I5e3Iu8QFaULEXpZA) *(Chinese)*
-- [AI 写作为什么总有一股“AI 味”？从一个开源写作 Skill 看大模型的语言习惯](https://mp.weixin.qq.com/s/9Fog_QIVS1Ly4SYLVWgBrw) *(Chinese)*
 
-## Find me
+[查看全部文章 →](./ARTICLES.md)
 
-[GitHub](https://github.com/MN0709) · [Email](mailto:mini.ning9900@gmail.com)
+---
 
+## 关于我
+
+- AI 产品经理，关注 Agent 工作流与可落地的 AI 产品。
+- 从用户问题出发，做范围明确、可以试用的原型。
+- 用真实结果、反馈和评测，检查产品是否完成了任务。
+
+问题 → 工作流 → 验证 → 迭代

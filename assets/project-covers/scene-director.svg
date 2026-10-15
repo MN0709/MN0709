@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">15s Scene Director · MN0709 project cover</title>
+  <desc id="desc">把 15 秒拆成有节奏的镜头. Original vector illustration of three-beat 15-second storyboard.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EBF2F8"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FAFD"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#536C84" flood-opacity="0.13"/>
+    </filter>
+    <clipPath id="window-clip"><rect x="31" y="155" width="578" height="166" rx="18"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#DCE5EE"/>
+  <path d="M1 50.5h638" stroke="#DEE7EF"/>
+  <circle cx="29" cy="25" r="5" fill="#E1BDBD"/>
+  <circle cx="47" cy="25" r="5" fill="#E8D6AE"/>
+  <circle cx="65" cy="25" r="5" fill="#BDD5CF"/>
+  <text x="90" y="29" fill="#7890A3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
+  <text x="584" y="29" fill="#9BAFBE" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">04 / 06</text>
+  <rect x="31" y="72" width="4" height="63" rx="2" fill="#A89CC0"/>
+  <text x="47" y="104" fill="#23384C" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">15s Scene Director</text>
+  <text x="48" y="130" fill="#6F8395" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="500">把 15 秒拆成有节奏的镜头</text>
+  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="#EDF1F8" stroke="#DDE5EF"/>
+  <text x="544.5" y="95" text-anchor="middle" fill="#6E7D9F" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">PROMPT SKILL</text>
+  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#D8E3EC" filter="url(#shadow)"/>
+  <g clip-path="url(#window-clip)">
+  <path d="M31 292h578" stroke="#E6EBF1"/>
+  <rect x="51" y="177" width="151" height="100" rx="11" fill="#EFF4F8" stroke="#D8E3EB"/>
+  <rect x="218" y="177" width="151" height="100" rx="11" fill="#EFF4F8" stroke="#D8E3EB"/>
+  <rect x="385" y="177" width="151" height="100" rx="11" fill="#EFF4F8" stroke="#D8E3EB"/>
+  <path d="M52 248q36-27 75-7t74-5v40H52z" fill="#CDDEE5"/>
+  <circle cx="110" cy="213" r="22" fill="#DCD6ED"/>
+  <circle cx="110" cy="213" r="11" fill="#F9FAFC"/>
+  <path d="M76 244 98 221l16 15 18-13 33 29" fill="none" stroke="#90AABA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M219 247q29-12 73-16 44 8 76 23v22H219z" fill="#CDD8E7"/>
+  <path d="m247 240 29-41 31 37" fill="#E2E8F0" stroke="#A2AEC6" stroke-width="2"/>
+  <path d="M292 232q9-21 19-21t20 21" fill="none" stroke="#8F9FAF" stroke-width="2"/>
+  <circle cx="309" cy="223" r="4" fill="#9D95BC"/>
+  <path d="M386 242q34 4 62-13 39-23 87 3v44H386z" fill="#CBDDE5"/>
+  <path d="M415 235q13-23 22-23 11 0 22 23M461 227q16-30 31-30 13 0 29 34" fill="none" stroke="#94ABBC" stroke-width="2.5"/>
+  <path d="M459 194h2m-11 7 2 1m20 0 2-1m-14-19v3" stroke="#B2A5CC" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="461" cy="194" r="5" fill="#DCD4EB"/>
+  <rect x="60" y="254" width="56" height="16" rx="7" fill="#FFFFFF" fill-opacity="0.88"/>
+  <text x="88" y="266" fill="#6C8097" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">00–05s</text>
+  <rect x="227" y="254" width="56" height="16" rx="7" fill="#FFFFFF" fill-opacity="0.88"/>
+  <text x="255" y="266" fill="#6C8097" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">05–10s</text>
+  <rect x="394" y="254" width="56" height="16" rx="7" fill="#FFFFFF" fill-opacity="0.88"/>
+  <text x="422" y="266" fill="#6C8097" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">10–15s</text>
+  <path d="M102 299h387" stroke="#D0D9E5" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="102" cy="299" r="6" fill="#B5ADC9"/>
+  <circle cx="294" cy="299" r="6" fill="#A4B7C8"/>
+  <circle cx="489" cy="299" r="6" fill="#8DADBB"/>
+  <path d="M548 228h39m-8-8 8 8-8 8" fill="none" stroke="#AA9EC2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  <circle cx="40" cy="340" r="3" fill="#A89CC0"/>
+  <text x="50" y="344" fill="#8297A7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">THREE-BEAT 15-SECOND STORYBOARD</text>
+  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#8196A7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

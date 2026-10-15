@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">MotoViz · MN0709 project cover</title>
+  <desc id="desc">3D 改装展示 × RAG 配件检索. Original vector illustration of motorcycle visualization and parts retrieval.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EBF2F8"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FAFD"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#536C84" flood-opacity="0.13"/>
+    </filter>
+    <clipPath id="window-clip"><rect x="31" y="155" width="578" height="166" rx="18"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#DCE5EE"/>
+  <path d="M1 50.5h638" stroke="#DEE7EF"/>
+  <circle cx="29" cy="25" r="5" fill="#E1BDBD"/>
+  <circle cx="47" cy="25" r="5" fill="#E8D6AE"/>
+  <circle cx="65" cy="25" r="5" fill="#BDD5CF"/>
+  <text x="90" y="29" fill="#7890A3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
+  <text x="584" y="29" fill="#9BAFBE" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">03 / 06</text>
+  <rect x="31" y="72" width="4" height="63" rx="2" fill="#7198A4"/>
+  <text x="47" y="104" fill="#23384C" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">MotoViz</text>
+  <text x="48" y="130" fill="#6F8395" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="500">3D 改装展示 × RAG 配件检索</text>
+  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="#EDF1F8" stroke="#DDE5EF"/>
+  <text x="544.5" y="95" text-anchor="middle" fill="#6E7D9F" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">TEAM MVP</text>
+  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#D8E3EC" filter="url(#shadow)"/>
+  <g clip-path="url(#window-clip)">
+  <rect x="50" y="172" width="350" height="132" rx="12" fill="#F6FAFB" stroke="#E0E9EF"/>
+  <path d="M51 281h348" stroke="#DAE6EC" stroke-width="1.5"/>
+  <path d="M81 177v105m55-105v105m55-105v105m55-105v105m55-105v105m55-105v105" stroke="#EAF0F4"/>
+  <path d="M62 243h320m-320-32h320" stroke="#EEF3F6"/>
+  <circle cx="123" cy="263" r="27" fill="#FFFFFF" stroke="#4E7284" stroke-width="5"/>
+  <circle cx="123" cy="263" r="12" fill="#E8F1F3" stroke="#91ADB7" stroke-width="2"/>
+  <circle cx="318" cy="263" r="27" fill="#FFFFFF" stroke="#4E7284" stroke-width="5"/>
+  <circle cx="318" cy="263" r="12" fill="#E8F1F3" stroke="#91ADB7" stroke-width="2"/>
+  <path d="M123 263 163 210h85l42 53h28M163 210l-18 53h145l-42-53M184 210l24 30h48" fill="none" stroke="#426B7B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m168 207 30-25h55l35 32-25 19-69-1z" fill="#A4BFCA" stroke="#527789" stroke-width="2"/>
+  <path d="m207 180 6-11h42l10 15" fill="none" stroke="#54798A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M282 202h38l18-19h20m-39 19 13 32" fill="none" stroke="#54798A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M325 179h31l11 5" fill="none" stroke="#54798A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M153 204h-19l-7-11h-18" fill="none" stroke="#54798A" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="234" cy="245" r="17" fill="#EDF4F5" stroke="#7C9CA8" stroke-width="2"/>
+  <path d="M224 245h20m-10-10v20" stroke="#7C9CA8" stroke-width="2"/>
+  <circle cx="271" cy="203" r="5" fill="#A99FC4"/>
+  <path d="M271 198v-25h140" fill="none" stroke="#A99FC4" stroke-width="1.7" stroke-dasharray="4 4"/>
+  <rect x="416" y="170" width="165" height="134" rx="12" fill="#FFFFFF" stroke="#DCE7EE"/>
+  <text x="431" y="191" fill="#607A8D" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1">PARTS SEARCH</text>
+  <rect x="430" y="201" width="137" height="24" rx="8" fill="#F3F7FA" stroke="#E0EAF0"/>
+  <circle cx="444" cy="213" r="4.5" fill="none" stroke="#96AFC0" stroke-width="1.5"/>
+  <path d="m447 216 4 4" stroke="#96AFC0" stroke-width="1.5"/>
+  <path d="M458 213h78" stroke="#CEDBE4" stroke-width="3" stroke-linecap="round"/>
+  <rect x="430" y="236" width="137" height="32" rx="8" fill="#F5F8FB"/>
+  <circle cx="444" cy="252" r="7" fill="#E3EFF0"/>
+  <path d="m441 252 2 2 4-5" fill="none" stroke="#6D9A9F" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="457" y="246" width="67" height="4" rx="2" fill="#819DAA"/>
+  <rect x="457" y="255" width="92" height="3" rx="1.5" fill="#D8E2E9"/>
+  <text x="432" y="290" fill="#8F9DAB" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9">3D VIEW  ·  EVIDENCE LINKS</text>
+    </g>
+  <circle cx="40" cy="340" r="3" fill="#7198A4"/>
+  <text x="50" y="344" fill="#8297A7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">MOTORCYCLE VISUALIZATION AND PARTS RETRIEVAL</text>
+  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#8196A7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

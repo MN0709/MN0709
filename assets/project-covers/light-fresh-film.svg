@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Light Fresh Short Film · MN0709 project cover</title>
+  <desc id="desc">为 5–30 秒短片设计轻盈叙事. Original vector illustration of gentle short-film storyboard.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EBF2F8"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FAFD"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#536C84" flood-opacity="0.13"/>
+    </filter>
+    <clipPath id="window-clip"><rect x="31" y="155" width="578" height="166" rx="18"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#DCE5EE"/>
+  <path d="M1 50.5h638" stroke="#DEE7EF"/>
+  <circle cx="29" cy="25" r="5" fill="#E1BDBD"/>
+  <circle cx="47" cy="25" r="5" fill="#E8D6AE"/>
+  <circle cx="65" cy="25" r="5" fill="#BDD5CF"/>
+  <text x="90" y="29" fill="#7890A3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
+  <text x="584" y="29" fill="#9BAFBE" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">05 / 06</text>
+  <rect x="31" y="72" width="4" height="63" rx="2" fill="#8EADB3"/>
+  <text x="47" y="104" fill="#23384C" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">Light Fresh Short Film</text>
+  <text x="48" y="130" fill="#6F8395" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="500">为 5–30 秒短片设计轻盈叙事</text>
+  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="#EDF1F8" stroke="#DDE5EF"/>
+  <text x="544.5" y="95" text-anchor="middle" fill="#6E7D9F" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">PROMPT SKILL</text>
+  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#D8E3EC" filter="url(#shadow)"/>
+  <g clip-path="url(#window-clip)">
+  <rect x="49" y="172" width="543" height="114" rx="12" fill="#EAF1F4" stroke="#D6E3EA"/>
+  <rect x="61" y="183" width="161" height="91" rx="8" fill="#F8F9F5"/>
+  <rect x="239" y="183" width="161" height="91" rx="8" fill="#F9F8F5"/>
+  <rect x="417" y="183" width="161" height="91" rx="8" fill="#F8F9F5"/>
+  <circle cx="183" cy="209" r="16" fill="#E7E3D4"/>
+  <path d="M62 250q49-26 99 2t61-3v25H62z" fill="#C9DCE2"/>
+  <path d="M92 253q15-29 32-33 21 8 37 33" fill="#DBE7E5"/>
+  <path d="M76 269q24-42 48-14" fill="none" stroke="#8DAC9E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M247 256q41-20 79 1t66-13v30H247z" fill="#D4DDE7"/>
+  <path d="M282 274q10-41 26-54 21 8 30 54" fill="#C2D4D9"/>
+  <circle cx="309" cy="214" r="8" fill="#9DAFC1"/>
+  <path d="M312 221q-1 27 16 47" fill="none" stroke="#849CB0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M418 250q31-24 75-7 43 15 85 0v31H418z" fill="#CCDDE2"/>
+  <path d="M467 262q10-48 36-48 30 0 38 48" fill="#E3E8E3"/>
+  <path d="M473 258q10-39 29-40 20 1 29 40" fill="none" stroke="#A8C1BD" stroke-width="2"/>
+  <path d="M428 224q11-14 22 0m81-18q8-10 16 0" fill="none" stroke="#B9C7CC" stroke-width="2" stroke-linecap="round"/>
+  <path d="M61 297h518" stroke="#DCE6ED" stroke-width="3" stroke-linecap="round"/>
+  <path d="M61 297h141" stroke="#9FBEBE" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="202" cy="297" r="5" fill="#8EADB3"/>
+  <text x="58" y="313" fill="#91A1AF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1">OPENING</text>
+  <text x="285" y="313" fill="#91A1AF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1">MOMENT</text>
+  <text x="526" y="313" fill="#91A1AF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1">AFTERGLOW</text>
+    </g>
+  <circle cx="40" cy="340" r="3" fill="#8EADB3"/>
+  <text x="50" y="344" fill="#8297A7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">GENTLE SHORT-FILM STORYBOARD</text>
+  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#8196A7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

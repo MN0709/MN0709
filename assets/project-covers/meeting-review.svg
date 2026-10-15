@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">会脉 · meeting-review · MN0709 project cover</title>
+  <desc id="desc">让会议记录回到可追溯的事实. Original vector illustration of traceable meeting review.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EBF2F8"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FAFD"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#536C84" flood-opacity="0.13"/>
+    </filter>
+    <clipPath id="window-clip"><rect x="31" y="155" width="578" height="166" rx="18"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#DCE5EE"/>
+  <path d="M1 50.5h638" stroke="#DEE7EF"/>
+  <circle cx="29" cy="25" r="5" fill="#E1BDBD"/>
+  <circle cx="47" cy="25" r="5" fill="#E8D6AE"/>
+  <circle cx="65" cy="25" r="5" fill="#BDD5CF"/>
+  <text x="90" y="29" fill="#7890A3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
+  <text x="584" y="29" fill="#9BAFBE" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">01 / 06</text>
+  <rect x="31" y="72" width="4" height="63" rx="2" fill="#7798AB"/>
+  <text x="47" y="104" fill="#23384C" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">会脉 · meeting-review</text>
+  <text x="48" y="130" fill="#6F8395" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="500">让会议记录回到可追溯的事实</text>
+  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="#EDF1F8" stroke="#DDE5EF"/>
+  <text x="544.5" y="95" text-anchor="middle" fill="#6E7D9F" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">MEETING AI</text>
+  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#D8E3EC" filter="url(#shadow)"/>
+  <g clip-path="url(#window-clip)">
+  <rect x="31" y="155" width="578" height="33" fill="#F1F6F9"/>
+  <circle cx="52" cy="171.5" r="4" fill="#91B9C1"/>
+  <text x="66" y="175" fill="#577084" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700" letter-spacing="1">REVIEW SESSION</text>
+  <path d="M413 172h88" stroke="#A8C4D0" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="517" cy="172" r="3" fill="#8FAEC0"/>
+  <path d="M522 172h59" stroke="#A8C4D0" stroke-width="2" stroke-linecap="round"/>
+  <path d="M327 190v131" stroke="#E1EAF0"/>
+  <text x="53" y="208" fill="#91A4B3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1.7">TRANSCRIPT</text>
+  <text x="350" y="208" fill="#91A4B3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1.7">DECISIONS &amp; ACTIONS</text>
+  <rect x="51" y="222" width="53" height="21" rx="7" fill="#E7F0F3"/>
+  <text x="77.5" y="236" fill="#5E8490" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">08:32</text>
+  <rect x="114" y="224" width="150" height="6" rx="3" fill="#8EADBC"/>
+  <rect x="114" y="237" width="186" height="5" rx="2.5" fill="#DFE9EF"/>
+  <rect x="51" y="256" width="53" height="21" rx="7" fill="#EDECF7"/>
+  <text x="77.5" y="270" fill="#8983AE" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">12:47</text>
+  <rect x="114" y="258" width="126" height="6" rx="3" fill="#AAA9C7"/>
+  <rect x="114" y="271" width="167" height="5" rx="2.5" fill="#DFE9EF"/>
+  <rect x="51" y="289" width="249" height="20" rx="9" fill="#F3F7F9"/>
+  <path d="M64 299h2v-5h2v11h2v-8h2v4h2v-12h2v18h2v-11h2v7h2v-5h2v3h2v-8h2v12h2v-5h2v-5h2v7h2v-4h2" fill="none" stroke="#8EAEBB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M109 299h173" stroke="#D2E0E8" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="206" cy="299" r="4" fill="#7798AB"/>
+  <rect x="350" y="220" width="232" height="43" rx="10" fill="#F5F8FB" stroke="#E2EAF0"/>
+  <circle cx="369" cy="241" r="10" fill="#E1EDF0"/>
+  <path d="m365 241 3 3 5-6" fill="none" stroke="#729B9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="386" y="239" fill="#50687A" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700">决策有出处</text>
+  <text x="386" y="253" fill="#91A4B3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9">链接到原句与时间戳</text>
+  <rect x="350" y="272" width="232" height="32" rx="10" fill="#F5F8FB" stroke="#E2EAF0"/>
+  <rect x="362" y="282" width="12" height="12" rx="3" fill="#EEEAF6" stroke="#A49CC4"/>
+  <text x="387" y="292" fill="#50687A" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700">行动项清晰可回看</text>
+    </g>
+  <circle cx="40" cy="340" r="3" fill="#7798AB"/>
+  <text x="50" y="344" fill="#8297A7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">TRACEABLE MEETING REVIEW</text>
+  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#8196A7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
