@@ -3,64 +3,238 @@
   <desc id="desc">3D 改装展示 × RAG 配件检索. Original vector illustration of motorcycle visualization and parts retrieval.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F8FAFC"/>
-      <stop offset="1" stop-color="#EBF2F8"/>
+      <stop offset="0" stop-color="#053D86"/>
+      <stop offset="0.48" stop-color="#075AA9"/>
+      <stop offset="1" stop-color="#078ACD"/>
     </linearGradient>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#F7FAFD"/>
+      <stop offset="0" stop-color="#0966B2"/>
+      <stop offset="0.5" stop-color="#3195D3"/>
+      <stop offset="1" stop-color="#1079C5"/>
     </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1164B9"/>
+      <stop offset="1" stop-color="#2F9DFA"/>
+    </linearGradient>
+    <linearGradient id="ui-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1C71BE"/>
+      <stop offset="0.52" stop-color="#3B9BD8"/>
+      <stop offset="1" stop-color="#55B9E6"/>
+    </linearGradient>
+    <linearGradient id="scene-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#70BAE9"/>
+      <stop offset="0.48" stop-color="#8FD7F2"/>
+      <stop offset="1" stop-color="#3D99D7"/>
+    </linearGradient>
+    <linearGradient id="site-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9F2FF"/>
+      <stop offset="0.56" stop-color="#A4DAF6"/>
+      <stop offset="1" stop-color="#66B8E9"/>
+    </linearGradient>
+    <linearGradient id="caustic" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6DCAFF" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#CEFFFF" stop-opacity="0.65"/>
+      <stop offset="0.5" stop-color="#7EE2FF" stop-opacity="0.05"/>
+      <stop offset="0.78" stop-color="#D8A8FF" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#69E7FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8BF7FF" stop-opacity="0.78"/>
+      <stop offset="0.45" stop-color="#44CBFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#44CBFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rainbow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFE9BE" stop-opacity="0.45"/>
+      <stop offset="0.32" stop-color="#C99CFF" stop-opacity="0.22"/>
+      <stop offset="0.67" stop-color="#6CFCED" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#6CFCED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="flare" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0.18" stop-color="#C2FFFF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#67D9FF" stop-opacity="0"/>
+    </radialGradient>
     <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
-      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#536C84" flood-opacity="0.13"/>
+      <feDropShadow dx="0" dy="5" stdDeviation="11" flood-color="#A5F9FF" flood-opacity="0.5"/>
+    </filter>
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
     </filter>
     <clipPath id="window-clip"><rect x="31" y="155" width="578" height="166" rx="18"/></clipPath>
+    <clipPath id="card-clip"><rect x="1" y="1" width="638" height="358" rx="25"/></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#DCE5EE"/>
-  <path d="M1 50.5h638" stroke="#DEE7EF"/>
-  <circle cx="29" cy="25" r="5" fill="#E1BDBD"/>
-  <circle cx="47" cy="25" r="5" fill="#E8D6AE"/>
-  <circle cx="65" cy="25" r="5" fill="#BDD5CF"/>
-  <text x="90" y="29" fill="#7890A3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
-  <text x="584" y="29" fill="#9BAFBE" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">03 / 06</text>
-  <rect x="31" y="72" width="4" height="63" rx="2" fill="#7198A4"/>
-  <text x="47" y="104" fill="#23384C" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">MotoViz</text>
-  <text x="48" y="130" fill="#6F8395" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="500">3D 改装展示 × RAG 配件检索</text>
-  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="#EDF1F8" stroke="#DDE5EF"/>
-  <text x="544.5" y="95" text-anchor="middle" fill="#6E7D9F" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">TEAM MVP</text>
-  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#D8E3EC" filter="url(#shadow)"/>
+  <rect x="2" y="2" width="636" height="356" rx="26" fill="#24DCFF" opacity="0.55" filter="url(#soft-glow)"/>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#BDFBFF" stroke-width="1.5"/>
+  <g clip-path="url(#card-clip)">
+    <ellipse cx="115" cy="116" rx="185" ry="141" fill="url(#aura)" opacity="0.35"/>
+    <ellipse cx="496" cy="285" rx="186" ry="168" fill="url(#aura)" opacity="0.56"/>
+    <ellipse cx="328" cy="16" rx="172" ry="93" fill="url(#rainbow)" opacity="0.8"/>
+    <ellipse cx="540" cy="65" rx="125" ry="93" fill="url(#rainbow)" opacity="0.85"/>
+    <ellipse cx="50" cy="258" rx="158" ry="136" fill="url(#rainbow)" opacity="0.38"/>
+    <ellipse cx="390" cy="196" rx="134" ry="115" fill="url(#rainbow)" opacity="0.34"/>
+    <path d="M-20 136C155 40 220 171 372 68S568 99 666-15" fill="none" stroke="url(#caustic)" stroke-width="40" opacity="0.73" filter="url(#soft-glow)"/>
+    <path d="M-35 354C140 267 308 366 430 256S592 284 669 207" fill="none" stroke="url(#caustic)" stroke-width="34" opacity="0.72" filter="url(#soft-glow)"/>
+    <path d="M-10 47C126 5 176 94 312 52S498 86 652 17" fill="none" stroke="url(#caustic)" stroke-width="18" opacity="0.5" filter="url(#soft-glow)"/>
+    <path d="M33 347C131 289 194 343 274 302S384 308 444 274" fill="none" stroke="#C5FEFF" stroke-width="6" opacity="0.18" filter="url(#soft-glow)"/>
+    <path d="M-8 181C147 63 276 218 407 102S566 108 647 16" fill="none" stroke="#A6FCFF" stroke-width="2" opacity="0.15"/>
+    <path d="M-13 356C132 270 262 340 427 242S553 280 650 191" fill="none" stroke="#C8FCFF" stroke-width="2" opacity="0.22"/>
+    <ellipse cx="526" cy="2" rx="90" ry="31" fill="url(#flare)" opacity="0.48"/>
+    <ellipse cx="84" cy="357" rx="84" ry="30" fill="url(#flare)" opacity="0.38"/>
+  </g>
+  <path d="M1 50.5h638" stroke="#A9EDFF" stroke-opacity="0.48"/>
+  <circle cx="29" cy="25" r="5" fill="#FC7D9B"/>
+  <circle cx="47" cy="25" r="5" fill="#FFE26D"/>
+  <circle cx="65" cy="25" r="5" fill="#71FFB0"/>
+  <text x="90" y="29" fill="#E8FAFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
+  <text x="584" y="29" fill="#F4FCFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">03 / 06</text>
+  <rect x="31" y="72" width="4" height="63" rx="2" fill="#A9F7FF" filter="url(#shadow)"/>
+  <text x="47" y="104" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">MotoViz</text>
+  <text x="48" y="130" fill="#E9F8FF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="600">3D 改装展示 × RAG 配件检索</text>
+  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="url(#pill)" stroke="#D5F9FF" filter="url(#shadow)"/>
+  <text x="544.5" y="95" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">TEAM MVP</text>
+  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#B8F8FF" stroke-width="1.7" filter="url(#shadow)"/>
   <g clip-path="url(#window-clip)">
-  <rect x="50" y="172" width="350" height="132" rx="12" fill="#F6FAFB" stroke="#E0E9EF"/>
-  <path d="M51 281h348" stroke="#DAE6EC" stroke-width="1.5"/>
-  <path d="M81 177v105m55-105v105m55-105v105m55-105v105m55-105v105m55-105v105" stroke="#EAF0F4"/>
-  <path d="M62 243h320m-320-32h320" stroke="#EEF3F6"/>
-  <circle cx="123" cy="263" r="27" fill="#FFFFFF" stroke="#4E7284" stroke-width="5"/>
-  <circle cx="123" cy="263" r="12" fill="#E8F1F3" stroke="#91ADB7" stroke-width="2"/>
-  <circle cx="318" cy="263" r="27" fill="#FFFFFF" stroke="#4E7284" stroke-width="5"/>
-  <circle cx="318" cy="263" r="12" fill="#E8F1F3" stroke="#91ADB7" stroke-width="2"/>
-  <path d="M123 263 163 210h85l42 53h28M163 210l-18 53h145l-42-53M184 210l24 30h48" fill="none" stroke="#426B7B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="m168 207 30-25h55l35 32-25 19-69-1z" fill="#A4BFCA" stroke="#527789" stroke-width="2"/>
-  <path d="m207 180 6-11h42l10 15" fill="none" stroke="#54798A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M282 202h38l18-19h20m-39 19 13 32" fill="none" stroke="#54798A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M325 179h31l11 5" fill="none" stroke="#54798A" stroke-width="4" stroke-linecap="round"/>
-  <path d="M153 204h-19l-7-11h-18" fill="none" stroke="#54798A" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="234" cy="245" r="17" fill="#EDF4F5" stroke="#7C9CA8" stroke-width="2"/>
-  <path d="M224 245h20m-10-10v20" stroke="#7C9CA8" stroke-width="2"/>
-  <circle cx="271" cy="203" r="5" fill="#A99FC4"/>
-  <path d="M271 198v-25h140" fill="none" stroke="#A99FC4" stroke-width="1.7" stroke-dasharray="4 4"/>
-  <rect x="416" y="170" width="165" height="134" rx="12" fill="#FFFFFF" stroke="#DCE7EE"/>
-  <text x="431" y="191" fill="#607A8D" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1">PARTS SEARCH</text>
-  <rect x="430" y="201" width="137" height="24" rx="8" fill="#F3F7FA" stroke="#E0EAF0"/>
-  <circle cx="444" cy="213" r="4.5" fill="none" stroke="#96AFC0" stroke-width="1.5"/>
-  <path d="m447 216 4 4" stroke="#96AFC0" stroke-width="1.5"/>
-  <path d="M458 213h78" stroke="#CEDBE4" stroke-width="3" stroke-linecap="round"/>
-  <rect x="430" y="236" width="137" height="32" rx="8" fill="#F5F8FB"/>
-  <circle cx="444" cy="252" r="7" fill="#E3EFF0"/>
-  <path d="m441 252 2 2 4-5" fill="none" stroke="#6D9A9F" stroke-width="1.5" stroke-linecap="round"/>
-  <rect x="457" y="246" width="67" height="4" rx="2" fill="#819DAA"/>
-  <rect x="457" y="255" width="92" height="3" rx="1.5" fill="#D8E2E9"/>
-  <text x="432" y="290" fill="#8F9DAB" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9">3D VIEW  ·  EVIDENCE LINKS</text>
+  <!-- Drop-in replacement for the MotoViz illustration panel only (x=50..400, y=172..304).
+     All required gradients and filters are defined inline below with the moto- prefix.
+     Keep the existing PARTS SEARCH panel at x=416..581 outside this fragment. -->
+<g id="motoviz-neon-bike">
+  <defs>
+    <linearGradient id="moto-stage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#154B91"/>
+      <stop offset="0.48" stop-color="#0869AD"/>
+      <stop offset="1" stop-color="#37AADB"/>
+    </linearGradient>
+    <linearGradient id="moto-tank" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8DEEFF"/>
+      <stop offset="0.13" stop-color="#369FE8"/>
+      <stop offset="0.46" stop-color="#074B9C"/>
+      <stop offset="0.78" stop-color="#072A6C"/>
+      <stop offset="1" stop-color="#57CEFB"/>
+    </linearGradient>
+    <linearGradient id="moto-metal" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#F0FDFF"/>
+      <stop offset="0.26" stop-color="#8ED8F6"/>
+      <stop offset="0.5" stop-color="#245E96"/>
+      <stop offset="0.75" stop-color="#C7F8FF"/>
+      <stop offset="1" stop-color="#3379AB"/>
+    </linearGradient>
+    <linearGradient id="moto-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#174D82"/>
+      <stop offset="0.5" stop-color="#05254E"/>
+      <stop offset="1" stop-color="#0A487E"/>
+    </linearGradient>
+    <radialGradient id="moto-rim">
+      <stop offset="0" stop-color="#E7FCFF"/>
+      <stop offset="0.33" stop-color="#9CEBFF"/>
+      <stop offset="0.63" stop-color="#23679B"/>
+      <stop offset="0.82" stop-color="#C6F6FF"/>
+      <stop offset="1" stop-color="#124777"/>
+    </radialGradient>
+    <filter id="moto-glow" x="-40%" y="-50%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="2.6"/>
+    </filter>
+  </defs>
+
+  <!-- Dim blueprint stage; the cyan ribs keep the card's 3D-view context. -->
+  <rect x="50" y="172" width="350" height="132" rx="12" fill="url(#moto-stage)" stroke="#A2EEFF" stroke-width="1.2"/>
+  <path d="M63 186h324M63 215h324M63 244h324M63 281h324M92 178v106m54-106v106m54-106v106m54-106v106m54-106v106m54-106v106" fill="none" stroke="#B8F6FF" stroke-opacity="0.22" stroke-width="0.9"/>
+  <path d="M58 286c71-11 163-12 330-3" fill="none" stroke="#AEF9FF" stroke-opacity="0.85" stroke-width="1.6"/>
+  <ellipse cx="223" cy="285" rx="151" ry="10" fill="#00355F" opacity="0.42"/>
+  <path d="M86 296c71-10 188-9 281-3" fill="none" stroke="#91EFFF" stroke-opacity="0.45" stroke-width="1.2"/>
+
+  <!-- Rear and front wheels: dark tires, concentric alloy rims, visible spokes. -->
+  <g id="moto-rear-wheel">
+    <circle cx="123" cy="263" r="31" fill="#77EEFF" opacity="0.45" filter="url(#moto-glow)"/>
+    <circle cx="123" cy="263" r="29" fill="#071D37" stroke="#0A4F7B" stroke-width="2"/>
+    <circle cx="123" cy="263" r="25" fill="none" stroke="#75DFFF" stroke-width="2.8"/>
+    <circle cx="123" cy="263" r="21" fill="url(#moto-rim)" stroke="#E4FDFF" stroke-width="1.2"/>
+    <circle cx="123" cy="263" r="17.5" fill="#0C4D7D" stroke="#69CEFC" stroke-width="1.4"/>
+    <path d="M123 246v34M106 263h34m-29-12 24 24m0-24-24 24m5-27 14 30m7-25-29 14m7-29 14 30m-22-7 30-14" stroke="#BDEFFF" stroke-opacity="0.88" stroke-width="1.35"/>
+    <circle cx="123" cy="263" r="7" fill="url(#moto-metal)" stroke="#FFFFFF" stroke-width="1.4"/>
+    <circle cx="123" cy="263" r="2.3" fill="#0A4F88"/>
+  </g>
+  <g id="moto-front-wheel">
+    <circle cx="319" cy="263" r="31" fill="#77EEFF" opacity="0.5" filter="url(#moto-glow)"/>
+    <circle cx="319" cy="263" r="29" fill="#071D37" stroke="#0A4F7B" stroke-width="2"/>
+    <circle cx="319" cy="263" r="25" fill="none" stroke="#75DFFF" stroke-width="2.8"/>
+    <circle cx="319" cy="263" r="21" fill="url(#moto-rim)" stroke="#E4FDFF" stroke-width="1.2"/>
+    <circle cx="319" cy="263" r="17.5" fill="#0C4D7D" stroke="#69CEFC" stroke-width="1.4"/>
+    <path d="M319 246v34M302 263h34m-29-12 24 24m0-24-24 24m5-27 14 30m7-25-29 14m7-29 14 30m-22-7 30-14" stroke="#BDEFFF" stroke-opacity="0.88" stroke-width="1.35"/>
+    <circle cx="319" cy="263" r="7" fill="url(#moto-metal)" stroke="#FFFFFF" stroke-width="1.4"/>
+    <circle cx="319" cy="263" r="2.3" fill="#0A4F88"/>
+  </g>
+
+  <!-- Side-view chassis and fork, joined to actual axle positions. -->
+  <path d="M125 261 157 216 203 219 232 242 277 214 318 260" fill="none" stroke="#052A56" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M125 261 157 216 203 219 232 242 277 214 318 260" fill="none" stroke="url(#moto-metal)" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M158 217 170 258 232 242 203 219M170 258l-45 3m108-19 49 19" fill="none" stroke="#0D345E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M156 217 170 257 232 241 202 219M170 257l-45 4m108-19 48 18" fill="none" stroke="#89DAF3" stroke-opacity="0.85" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M288 211 321 258m-42-44 31 47" fill="none" stroke="#072C58" stroke-width="8" stroke-linecap="round"/>
+  <path d="M288 211 321 258m-42-44 31 47" fill="none" stroke="url(#moto-metal)" stroke-width="3.3" stroke-linecap="round"/>
+  <path d="M284 230q29-16 48 10" fill="none" stroke="#A6EDFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Engine: layered fins, crankcase, and a low silver exhaust. -->
+  <path d="M205 229h43l18 13-8 17-43 3-20-15z" fill="url(#moto-dark)" stroke="#78CFFA" stroke-width="2"/>
+  <path d="M209 235h42m-46 6h50m-47 6h47m-38 6h31" stroke="#92DFFF" stroke-opacity="0.72" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="231" cy="246" r="12" fill="url(#moto-metal)" stroke="#E8FBFF" stroke-width="1.6"/>
+  <circle cx="231" cy="246" r="6.4" fill="#124B7A" stroke="#AEEBFF" stroke-width="1.5"/>
+  <path d="M249 255c-9 7-40 12-79 7l-11 4 8 5c45 4 78-2 99-9z" fill="url(#moto-metal)" stroke="#0A5C8D" stroke-width="1.4"/>
+  <path d="M174 264c25 2 55 1 75-3" fill="none" stroke="#E3FDFF" stroke-width="1.2" stroke-opacity="0.9"/>
+
+  <!-- Sculpted navy tank and fairing, with layered reflections. -->
+  <path d="M177 214q13-15 35-24l40 1q20 4 31 20l-18 22-62-2z" fill="#062D66" stroke="#9DF4FF" stroke-width="2.1"/>
+  <path d="M181 213q17-17 34-23h39q18 8 26 21l-17 17-61-1z" fill="url(#moto-tank)" stroke="#BEF8FF" stroke-width="1.5"/>
+  <path d="M199 199q17-8 31-7h23q8 2 13 9-34-5-60 7z" fill="#A9F2FF" opacity="0.7"/>
+  <path d="M197 218q42 5 70-2" fill="none" stroke="#74DFFF" stroke-width="2" opacity="0.8"/>
+  <path d="M206 224q26 7 53 0" fill="none" stroke="#062B6B" stroke-width="2.2" opacity="0.7"/>
+  <path d="M260 204q14-5 25 0l19 12-19 11-24-2 13-14z" fill="url(#moto-dark)" stroke="#88E1FF" stroke-width="1.8"/>
+  <path d="M269 205q11-1 19 5l10 6-14 5-20-1z" fill="url(#moto-metal)" opacity="0.7"/>
+  <path d="M294 214q10-2 17 6l-10 5-11-3z" fill="#D8FDFF" opacity="0.9"/>
+
+  <!-- Seat, tail, handlebar, headlamp, and a few small mechanical cues. -->
+  <path d="M160 207q12-9 34-8l15 5-3 6-41 4-12-3z" fill="#07274B" stroke="#A8EBFF" stroke-width="1.6"/>
+  <path d="M163 205q20-7 38 0" fill="none" stroke="#89DFFB" stroke-width="1.6"/>
+  <path d="m162 209-28-4-12 8 34 5z" fill="url(#moto-tank)" stroke="#A7EDFF" stroke-width="1.5"/>
+  <path d="M124 212h-13" stroke="#FF8FB7" stroke-width="3.3" stroke-linecap="round"/>
+  <path d="M274 203 284 188h25m-18 0 7-5h21" fill="none" stroke="#07305E" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M274 203 284 188h25m-18 0 7-5h21" fill="none" stroke="#B7EEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M314 183h15" stroke="#092C51" stroke-width="6" stroke-linecap="round"/>
+  <path d="M304 215q11-2 16 3l-7 9-10-3z" fill="#D9FDFF" stroke="#3D9ACB" stroke-width="1.3"/>
+  <circle cx="312" cy="220" r="2.5" fill="#FFFFFF"/>
+  <path d="M145 239 154 231m123 12 7 5m-125 19 8-3" fill="none" stroke="#CDF9FF" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Interactive 3D marker, tethered toward the existing parts-search panel. -->
+  <circle cx="232" cy="237" r="17" fill="#42C6FF" opacity="0.55" filter="url(#moto-glow)"/>
+  <circle cx="232" cy="237" r="16" fill="#0D8FCF" stroke="#E9FDFF" stroke-width="2"/>
+  <path d="M232 227v20m-10-10h20" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M276 207v-31h124" fill="none" stroke="#D7B8FF" stroke-width="1.8" stroke-dasharray="3 4"/>
+  <circle cx="276" cy="207" r="3.5" fill="#D7B8FF"/>
+</g>
+
+  <rect x="416" y="170" width="165" height="134" rx="12" fill="url(#ui-glass)" stroke="#8EE9FF"/>
+  <text x="431" y="191" fill="#F4FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1">PARTS SEARCH</text>
+  <rect x="430" y="201" width="137" height="24" rx="8" fill="url(#ui-glass)" stroke="#8EE9FF"/>
+  <circle cx="444" cy="213" r="4.5" fill="none" stroke="#B7F4FF" stroke-width="1.5"/>
+  <path d="m447 216 4 4" stroke="#B7F4FF" stroke-width="1.5"/>
+  <path d="M458 213h78" stroke="#8EE9FF" stroke-width="3" stroke-linecap="round"/>
+  <rect x="430" y="236" width="137" height="32" rx="8" fill="url(#ui-glass)"/>
+  <circle cx="444" cy="252" r="7" fill="#6EC9F5"/>
+  <path d="m441 252 2 2 4-5" fill="none" stroke="#B7F4FF" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="457" y="246" width="67" height="4" rx="2" fill="#B5F0FF"/>
+  <rect x="457" y="255" width="92" height="3" rx="1.5" fill="#B5F0FF"/>
+  <text x="432" y="290" fill="#F4FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9">3D VIEW  ·  EVIDENCE LINKS</text>
     </g>
-  <circle cx="40" cy="340" r="3" fill="#7198A4"/>
-  <text x="50" y="344" fill="#8297A7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">MOTORCYCLE VISUALIZATION AND PARTS RETRIEVAL</text>
-  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#8196A7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g clip-path="url(#window-clip)" opacity="0.2">
+    <ellipse cx="518" cy="169" rx="178" ry="60" fill="url(#flare)"/>
+    <path d="M25 328C155 249 226 340 347 256S539 270 630 184" fill="none" stroke="url(#caustic)" stroke-width="17" filter="url(#soft-glow)"/>
+  </g>
+  <rect x="32" y="156" width="576" height="164" rx="17" fill="none" stroke="#FFFFFF" stroke-opacity="0.52"/>
+  <path d="M46 160h141M452 316h142" stroke="#DBFDFF" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="300" cy="156" r="3" fill="#FFFFFF"/>
+  <ellipse cx="365" cy="155" rx="36" ry="10" fill="url(#flare)"/>
+  <ellipse cx="36" cy="314" rx="28" ry="11" fill="url(#flare)" opacity="0.75"/>
+  <ellipse cx="606" cy="309" rx="32" ry="11" fill="url(#flare)" opacity="0.75"/>
+  <circle cx="40" cy="340" r="3" fill="#A9F7FF"/>
+  <text x="50" y="344" fill="#E4F9FF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">MOTORCYCLE VISUALIZATION AND PARTS RETRIEVAL</text>
+  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#EEFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

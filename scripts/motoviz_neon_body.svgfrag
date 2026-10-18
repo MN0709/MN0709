@@ -1,0 +1,116 @@
+<!-- Drop-in replacement for the MotoViz illustration panel only (x=50..400, y=172..304).
+     All required gradients and filters are defined inline below with the moto- prefix.
+     Keep the existing PARTS SEARCH panel at x=416..581 outside this fragment. -->
+<g id="motoviz-neon-bike">
+  <defs>
+    <linearGradient id="moto-stage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#154B91"/>
+      <stop offset="0.48" stop-color="#0869AD"/>
+      <stop offset="1" stop-color="#37AADB"/>
+    </linearGradient>
+    <linearGradient id="moto-tank" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8DEEFF"/>
+      <stop offset="0.13" stop-color="#369FE8"/>
+      <stop offset="0.46" stop-color="#074B9C"/>
+      <stop offset="0.78" stop-color="#072A6C"/>
+      <stop offset="1" stop-color="#57CEFB"/>
+    </linearGradient>
+    <linearGradient id="moto-metal" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#F0FDFF"/>
+      <stop offset="0.26" stop-color="#8ED8F6"/>
+      <stop offset="0.5" stop-color="#245E96"/>
+      <stop offset="0.75" stop-color="#C7F8FF"/>
+      <stop offset="1" stop-color="#3379AB"/>
+    </linearGradient>
+    <linearGradient id="moto-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#174D82"/>
+      <stop offset="0.5" stop-color="#05254E"/>
+      <stop offset="1" stop-color="#0A487E"/>
+    </linearGradient>
+    <radialGradient id="moto-rim">
+      <stop offset="0" stop-color="#E7FCFF"/>
+      <stop offset="0.33" stop-color="#9CEBFF"/>
+      <stop offset="0.63" stop-color="#23679B"/>
+      <stop offset="0.82" stop-color="#C6F6FF"/>
+      <stop offset="1" stop-color="#124777"/>
+    </radialGradient>
+    <filter id="moto-glow" x="-40%" y="-50%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="2.6"/>
+    </filter>
+  </defs>
+
+  <!-- Dim blueprint stage; the cyan ribs keep the card's 3D-view context. -->
+  <rect x="50" y="172" width="350" height="132" rx="12" fill="url(#moto-stage)" stroke="#A2EEFF" stroke-width="1.2"/>
+  <path d="M63 186h324M63 215h324M63 244h324M63 281h324M92 178v106m54-106v106m54-106v106m54-106v106m54-106v106m54-106v106" fill="none" stroke="#B8F6FF" stroke-opacity="0.22" stroke-width="0.9"/>
+  <path d="M58 286c71-11 163-12 330-3" fill="none" stroke="#AEF9FF" stroke-opacity="0.85" stroke-width="1.6"/>
+  <ellipse cx="223" cy="285" rx="151" ry="10" fill="#00355F" opacity="0.42"/>
+  <path d="M86 296c71-10 188-9 281-3" fill="none" stroke="#91EFFF" stroke-opacity="0.45" stroke-width="1.2"/>
+
+  <!-- Rear and front wheels: dark tires, concentric alloy rims, visible spokes. -->
+  <g id="moto-rear-wheel">
+    <circle cx="123" cy="263" r="31" fill="#77EEFF" opacity="0.45" filter="url(#moto-glow)"/>
+    <circle cx="123" cy="263" r="29" fill="#071D37" stroke="#0A4F7B" stroke-width="2"/>
+    <circle cx="123" cy="263" r="25" fill="none" stroke="#75DFFF" stroke-width="2.8"/>
+    <circle cx="123" cy="263" r="21" fill="url(#moto-rim)" stroke="#E4FDFF" stroke-width="1.2"/>
+    <circle cx="123" cy="263" r="17.5" fill="#0C4D7D" stroke="#69CEFC" stroke-width="1.4"/>
+    <path d="M123 246v34M106 263h34m-29-12 24 24m0-24-24 24m5-27 14 30m7-25-29 14m7-29 14 30m-22-7 30-14" stroke="#BDEFFF" stroke-opacity="0.88" stroke-width="1.35"/>
+    <circle cx="123" cy="263" r="7" fill="url(#moto-metal)" stroke="#FFFFFF" stroke-width="1.4"/>
+    <circle cx="123" cy="263" r="2.3" fill="#0A4F88"/>
+  </g>
+  <g id="moto-front-wheel">
+    <circle cx="319" cy="263" r="31" fill="#77EEFF" opacity="0.5" filter="url(#moto-glow)"/>
+    <circle cx="319" cy="263" r="29" fill="#071D37" stroke="#0A4F7B" stroke-width="2"/>
+    <circle cx="319" cy="263" r="25" fill="none" stroke="#75DFFF" stroke-width="2.8"/>
+    <circle cx="319" cy="263" r="21" fill="url(#moto-rim)" stroke="#E4FDFF" stroke-width="1.2"/>
+    <circle cx="319" cy="263" r="17.5" fill="#0C4D7D" stroke="#69CEFC" stroke-width="1.4"/>
+    <path d="M319 246v34M302 263h34m-29-12 24 24m0-24-24 24m5-27 14 30m7-25-29 14m7-29 14 30m-22-7 30-14" stroke="#BDEFFF" stroke-opacity="0.88" stroke-width="1.35"/>
+    <circle cx="319" cy="263" r="7" fill="url(#moto-metal)" stroke="#FFFFFF" stroke-width="1.4"/>
+    <circle cx="319" cy="263" r="2.3" fill="#0A4F88"/>
+  </g>
+
+  <!-- Side-view chassis and fork, joined to actual axle positions. -->
+  <path d="M125 261 157 216 203 219 232 242 277 214 318 260" fill="none" stroke="#052A56" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M125 261 157 216 203 219 232 242 277 214 318 260" fill="none" stroke="url(#moto-metal)" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M158 217 170 258 232 242 203 219M170 258l-45 3m108-19 49 19" fill="none" stroke="#0D345E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M156 217 170 257 232 241 202 219M170 257l-45 4m108-19 48 18" fill="none" stroke="#89DAF3" stroke-opacity="0.85" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M288 211 321 258m-42-44 31 47" fill="none" stroke="#072C58" stroke-width="8" stroke-linecap="round"/>
+  <path d="M288 211 321 258m-42-44 31 47" fill="none" stroke="url(#moto-metal)" stroke-width="3.3" stroke-linecap="round"/>
+  <path d="M284 230q29-16 48 10" fill="none" stroke="#A6EDFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Engine: layered fins, crankcase, and a low silver exhaust. -->
+  <path d="M205 229h43l18 13-8 17-43 3-20-15z" fill="url(#moto-dark)" stroke="#78CFFA" stroke-width="2"/>
+  <path d="M209 235h42m-46 6h50m-47 6h47m-38 6h31" stroke="#92DFFF" stroke-opacity="0.72" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="231" cy="246" r="12" fill="url(#moto-metal)" stroke="#E8FBFF" stroke-width="1.6"/>
+  <circle cx="231" cy="246" r="6.4" fill="#124B7A" stroke="#AEEBFF" stroke-width="1.5"/>
+  <path d="M249 255c-9 7-40 12-79 7l-11 4 8 5c45 4 78-2 99-9z" fill="url(#moto-metal)" stroke="#0A5C8D" stroke-width="1.4"/>
+  <path d="M174 264c25 2 55 1 75-3" fill="none" stroke="#E3FDFF" stroke-width="1.2" stroke-opacity="0.9"/>
+
+  <!-- Sculpted navy tank and fairing, with layered reflections. -->
+  <path d="M177 214q13-15 35-24l40 1q20 4 31 20l-18 22-62-2z" fill="#062D66" stroke="#9DF4FF" stroke-width="2.1"/>
+  <path d="M181 213q17-17 34-23h39q18 8 26 21l-17 17-61-1z" fill="url(#moto-tank)" stroke="#BEF8FF" stroke-width="1.5"/>
+  <path d="M199 199q17-8 31-7h23q8 2 13 9-34-5-60 7z" fill="#A9F2FF" opacity="0.7"/>
+  <path d="M197 218q42 5 70-2" fill="none" stroke="#74DFFF" stroke-width="2" opacity="0.8"/>
+  <path d="M206 224q26 7 53 0" fill="none" stroke="#062B6B" stroke-width="2.2" opacity="0.7"/>
+  <path d="M260 204q14-5 25 0l19 12-19 11-24-2 13-14z" fill="url(#moto-dark)" stroke="#88E1FF" stroke-width="1.8"/>
+  <path d="M269 205q11-1 19 5l10 6-14 5-20-1z" fill="url(#moto-metal)" opacity="0.7"/>
+  <path d="M294 214q10-2 17 6l-10 5-11-3z" fill="#D8FDFF" opacity="0.9"/>
+
+  <!-- Seat, tail, handlebar, headlamp, and a few small mechanical cues. -->
+  <path d="M160 207q12-9 34-8l15 5-3 6-41 4-12-3z" fill="#07274B" stroke="#A8EBFF" stroke-width="1.6"/>
+  <path d="M163 205q20-7 38 0" fill="none" stroke="#89DFFB" stroke-width="1.6"/>
+  <path d="m162 209-28-4-12 8 34 5z" fill="url(#moto-tank)" stroke="#A7EDFF" stroke-width="1.5"/>
+  <path d="M124 212h-13" stroke="#FF8FB7" stroke-width="3.3" stroke-linecap="round"/>
+  <path d="M274 203 284 188h25m-18 0 7-5h21" fill="none" stroke="#07305E" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M274 203 284 188h25m-18 0 7-5h21" fill="none" stroke="#B7EEFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M314 183h15" stroke="#092C51" stroke-width="6" stroke-linecap="round"/>
+  <path d="M304 215q11-2 16 3l-7 9-10-3z" fill="#D9FDFF" stroke="#3D9ACB" stroke-width="1.3"/>
+  <circle cx="312" cy="220" r="2.5" fill="#FFFFFF"/>
+  <path d="M145 239 154 231m123 12 7 5m-125 19 8-3" fill="none" stroke="#CDF9FF" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Interactive 3D marker, tethered toward the existing parts-search panel. -->
+  <circle cx="232" cy="237" r="17" fill="#42C6FF" opacity="0.55" filter="url(#moto-glow)"/>
+  <circle cx="232" cy="237" r="16" fill="#0D8FCF" stroke="#E9FDFF" stroke-width="2"/>
+  <path d="M232 227v20m-10-10h20" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M276 207v-31h124" fill="none" stroke="#D7B8FF" stroke-width="1.8" stroke-dasharray="3 4"/>
+  <circle cx="276" cy="207" r="3.5" fill="#D7B8FF"/>
+</g>

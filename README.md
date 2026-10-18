@@ -14,7 +14,7 @@
 
 ## ⭐ 精选项目
 
-我关注真实任务中的 AI 产品：先弄清问题，再做可验证的工作流，最后用证据决定下一步。
+<p align="center"><img width="100%" src="./assets/project-covers/selected-work-heading.svg" alt="我关注真实任务中的 AI 产品：先弄清问题，再做可验证的工作流，最后用证据决定下一步。" /></p>
 
 <p>
   <a href="https://github.com/MN0709/meeting-review"><img width="49%" src="./assets/project-covers/meeting-review.svg" alt="会脉：本机会议记录与带原话证据的回顾" /></a>

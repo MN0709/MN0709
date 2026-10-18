@@ -3,63 +3,138 @@
   <desc id="desc">让会议记录回到可追溯的事实. Original vector illustration of traceable meeting review.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F8FAFC"/>
-      <stop offset="1" stop-color="#EBF2F8"/>
+      <stop offset="0" stop-color="#053D86"/>
+      <stop offset="0.48" stop-color="#075AA9"/>
+      <stop offset="1" stop-color="#078ACD"/>
     </linearGradient>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#F7FAFD"/>
+      <stop offset="0" stop-color="#0966B2"/>
+      <stop offset="0.5" stop-color="#3195D3"/>
+      <stop offset="1" stop-color="#1079C5"/>
     </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1164B9"/>
+      <stop offset="1" stop-color="#2F9DFA"/>
+    </linearGradient>
+    <linearGradient id="ui-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1C71BE"/>
+      <stop offset="0.52" stop-color="#3B9BD8"/>
+      <stop offset="1" stop-color="#55B9E6"/>
+    </linearGradient>
+    <linearGradient id="scene-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#70BAE9"/>
+      <stop offset="0.48" stop-color="#8FD7F2"/>
+      <stop offset="1" stop-color="#3D99D7"/>
+    </linearGradient>
+    <linearGradient id="site-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9F2FF"/>
+      <stop offset="0.56" stop-color="#A4DAF6"/>
+      <stop offset="1" stop-color="#66B8E9"/>
+    </linearGradient>
+    <linearGradient id="caustic" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6DCAFF" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#CEFFFF" stop-opacity="0.65"/>
+      <stop offset="0.5" stop-color="#7EE2FF" stop-opacity="0.05"/>
+      <stop offset="0.78" stop-color="#D8A8FF" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#69E7FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8BF7FF" stop-opacity="0.78"/>
+      <stop offset="0.45" stop-color="#44CBFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#44CBFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rainbow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFE9BE" stop-opacity="0.45"/>
+      <stop offset="0.32" stop-color="#C99CFF" stop-opacity="0.22"/>
+      <stop offset="0.67" stop-color="#6CFCED" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#6CFCED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="flare" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0.18" stop-color="#C2FFFF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#67D9FF" stop-opacity="0"/>
+    </radialGradient>
     <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
-      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#536C84" flood-opacity="0.13"/>
+      <feDropShadow dx="0" dy="5" stdDeviation="11" flood-color="#A5F9FF" flood-opacity="0.5"/>
+    </filter>
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
     </filter>
     <clipPath id="window-clip"><rect x="31" y="155" width="578" height="166" rx="18"/></clipPath>
+    <clipPath id="card-clip"><rect x="1" y="1" width="638" height="358" rx="25"/></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#DCE5EE"/>
-  <path d="M1 50.5h638" stroke="#DEE7EF"/>
-  <circle cx="29" cy="25" r="5" fill="#E1BDBD"/>
-  <circle cx="47" cy="25" r="5" fill="#E8D6AE"/>
-  <circle cx="65" cy="25" r="5" fill="#BDD5CF"/>
-  <text x="90" y="29" fill="#7890A3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
-  <text x="584" y="29" fill="#9BAFBE" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">01 / 06</text>
-  <rect x="31" y="72" width="4" height="63" rx="2" fill="#7798AB"/>
-  <text x="47" y="104" fill="#23384C" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">会脉 · meeting-review</text>
-  <text x="48" y="130" fill="#6F8395" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="500">让会议记录回到可追溯的事实</text>
-  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="#EDF1F8" stroke="#DDE5EF"/>
-  <text x="544.5" y="95" text-anchor="middle" fill="#6E7D9F" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">MEETING AI</text>
-  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#D8E3EC" filter="url(#shadow)"/>
+  <rect x="2" y="2" width="636" height="356" rx="26" fill="#24DCFF" opacity="0.55" filter="url(#soft-glow)"/>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#BDFBFF" stroke-width="1.5"/>
+  <g clip-path="url(#card-clip)">
+    <ellipse cx="115" cy="116" rx="185" ry="141" fill="url(#aura)" opacity="0.35"/>
+    <ellipse cx="496" cy="285" rx="186" ry="168" fill="url(#aura)" opacity="0.56"/>
+    <ellipse cx="328" cy="16" rx="172" ry="93" fill="url(#rainbow)" opacity="0.8"/>
+    <ellipse cx="540" cy="65" rx="125" ry="93" fill="url(#rainbow)" opacity="0.85"/>
+    <ellipse cx="50" cy="258" rx="158" ry="136" fill="url(#rainbow)" opacity="0.38"/>
+    <ellipse cx="390" cy="196" rx="134" ry="115" fill="url(#rainbow)" opacity="0.34"/>
+    <path d="M-20 136C155 40 220 171 372 68S568 99 666-15" fill="none" stroke="url(#caustic)" stroke-width="40" opacity="0.73" filter="url(#soft-glow)"/>
+    <path d="M-35 354C140 267 308 366 430 256S592 284 669 207" fill="none" stroke="url(#caustic)" stroke-width="34" opacity="0.72" filter="url(#soft-glow)"/>
+    <path d="M-10 47C126 5 176 94 312 52S498 86 652 17" fill="none" stroke="url(#caustic)" stroke-width="18" opacity="0.5" filter="url(#soft-glow)"/>
+    <path d="M33 347C131 289 194 343 274 302S384 308 444 274" fill="none" stroke="#C5FEFF" stroke-width="6" opacity="0.18" filter="url(#soft-glow)"/>
+    <path d="M-8 181C147 63 276 218 407 102S566 108 647 16" fill="none" stroke="#A6FCFF" stroke-width="2" opacity="0.15"/>
+    <path d="M-13 356C132 270 262 340 427 242S553 280 650 191" fill="none" stroke="#C8FCFF" stroke-width="2" opacity="0.22"/>
+    <ellipse cx="526" cy="2" rx="90" ry="31" fill="url(#flare)" opacity="0.48"/>
+    <ellipse cx="84" cy="357" rx="84" ry="30" fill="url(#flare)" opacity="0.38"/>
+  </g>
+  <path d="M1 50.5h638" stroke="#A9EDFF" stroke-opacity="0.48"/>
+  <circle cx="29" cy="25" r="5" fill="#FC7D9B"/>
+  <circle cx="47" cy="25" r="5" fill="#FFE26D"/>
+  <circle cx="65" cy="25" r="5" fill="#71FFB0"/>
+  <text x="90" y="29" fill="#E8FAFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
+  <text x="584" y="29" fill="#F4FCFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">01 / 06</text>
+  <rect x="31" y="72" width="4" height="63" rx="2" fill="#A9F7FF" filter="url(#shadow)"/>
+  <text x="47" y="104" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">会脉 · meeting-review</text>
+  <text x="48" y="130" fill="#E9F8FF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="600">让会议记录回到可追溯的事实</text>
+  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="url(#pill)" stroke="#D5F9FF" filter="url(#shadow)"/>
+  <text x="544.5" y="95" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">MEETING AI</text>
+  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#B8F8FF" stroke-width="1.7" filter="url(#shadow)"/>
   <g clip-path="url(#window-clip)">
-  <rect x="31" y="155" width="578" height="33" fill="#F1F6F9"/>
-  <circle cx="52" cy="171.5" r="4" fill="#91B9C1"/>
-  <text x="66" y="175" fill="#577084" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700" letter-spacing="1">REVIEW SESSION</text>
-  <path d="M413 172h88" stroke="#A8C4D0" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="517" cy="172" r="3" fill="#8FAEC0"/>
-  <path d="M522 172h59" stroke="#A8C4D0" stroke-width="2" stroke-linecap="round"/>
-  <path d="M327 190v131" stroke="#E1EAF0"/>
-  <text x="53" y="208" fill="#91A4B3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1.7">TRANSCRIPT</text>
-  <text x="350" y="208" fill="#91A4B3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1.7">DECISIONS &amp; ACTIONS</text>
-  <rect x="51" y="222" width="53" height="21" rx="7" fill="#E7F0F3"/>
-  <text x="77.5" y="236" fill="#5E8490" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">08:32</text>
-  <rect x="114" y="224" width="150" height="6" rx="3" fill="#8EADBC"/>
-  <rect x="114" y="237" width="186" height="5" rx="2.5" fill="#DFE9EF"/>
-  <rect x="51" y="256" width="53" height="21" rx="7" fill="#EDECF7"/>
-  <text x="77.5" y="270" fill="#8983AE" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">12:47</text>
-  <rect x="114" y="258" width="126" height="6" rx="3" fill="#AAA9C7"/>
-  <rect x="114" y="271" width="167" height="5" rx="2.5" fill="#DFE9EF"/>
-  <rect x="51" y="289" width="249" height="20" rx="9" fill="#F3F7F9"/>
-  <path d="M64 299h2v-5h2v11h2v-8h2v4h2v-12h2v18h2v-11h2v7h2v-5h2v3h2v-8h2v12h2v-5h2v-5h2v7h2v-4h2" fill="none" stroke="#8EAEBB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M109 299h173" stroke="#D2E0E8" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="206" cy="299" r="4" fill="#7798AB"/>
-  <rect x="350" y="220" width="232" height="43" rx="10" fill="#F5F8FB" stroke="#E2EAF0"/>
-  <circle cx="369" cy="241" r="10" fill="#E1EDF0"/>
-  <path d="m365 241 3 3 5-6" fill="none" stroke="#729B9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="386" y="239" fill="#50687A" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700">决策有出处</text>
-  <text x="386" y="253" fill="#91A4B3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9">链接到原句与时间戳</text>
-  <rect x="350" y="272" width="232" height="32" rx="10" fill="#F5F8FB" stroke="#E2EAF0"/>
-  <rect x="362" y="282" width="12" height="12" rx="3" fill="#EEEAF6" stroke="#A49CC4"/>
-  <text x="387" y="292" fill="#50687A" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700">行动项清晰可回看</text>
+  <rect x="31" y="155" width="578" height="33" fill="url(#ui-glass)"/>
+  <circle cx="52" cy="171.5" r="4" fill="#125B9F"/>
+  <text x="66" y="175" fill="#F4FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700" letter-spacing="1">REVIEW SESSION</text>
+  <path d="M413 172h88" stroke="#B7F4FF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="517" cy="172" r="3" fill="#125B9F"/>
+  <path d="M522 172h59" stroke="#B7F4FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M327 190v131" stroke="#8EE9FF"/>
+  <text x="53" y="208" fill="#F4FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1.7">TRANSCRIPT</text>
+  <text x="350" y="208" fill="#F4FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700" letter-spacing="1.7">DECISIONS &amp; ACTIONS</text>
+  <rect x="51" y="222" width="53" height="21" rx="7" fill="#318DCE"/>
+  <text x="77.5" y="236" fill="#F4FDFF" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">08:32</text>
+  <rect x="114" y="224" width="150" height="6" rx="3" fill="#B5F0FF"/>
+  <rect x="114" y="237" width="186" height="5" rx="2.5" fill="#B5F0FF"/>
+  <rect x="51" y="256" width="53" height="21" rx="7" fill="#318DCE"/>
+  <text x="77.5" y="270" fill="#F4FDFF" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">12:47</text>
+  <rect x="114" y="258" width="126" height="6" rx="3" fill="#B5F0FF"/>
+  <rect x="114" y="271" width="167" height="5" rx="2.5" fill="#B5F0FF"/>
+  <rect x="51" y="289" width="249" height="20" rx="9" fill="url(#ui-glass)"/>
+  <path d="M64 299h2v-5h2v11h2v-8h2v4h2v-12h2v18h2v-11h2v7h2v-5h2v3h2v-8h2v12h2v-5h2v-5h2v7h2v-4h2" fill="none" stroke="#B7F4FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M109 299h173" stroke="#8EE9FF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="206" cy="299" r="4" fill="#125B9F"/>
+  <rect x="350" y="220" width="232" height="43" rx="10" fill="url(#ui-glass)" stroke="#8EE9FF"/>
+  <circle cx="369" cy="241" r="10" fill="#6EC9F5"/>
+  <path d="m365 241 3 3 5-6" fill="none" stroke="#B7F4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="386" y="239" fill="#F4FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700">决策有出处</text>
+  <text x="386" y="253" fill="#F4FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9">链接到原句与时间戳</text>
+  <rect x="350" y="272" width="232" height="32" rx="10" fill="url(#ui-glass)" stroke="#8EE9FF"/>
+  <rect x="362" y="282" width="12" height="12" rx="3" fill="#318DCE" stroke="#C9C0FF"/>
+  <text x="387" y="292" fill="#F4FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="11" font-weight="700">行动项清晰可回看</text>
     </g>
-  <circle cx="40" cy="340" r="3" fill="#7798AB"/>
-  <text x="50" y="344" fill="#8297A7" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">TRACEABLE MEETING REVIEW</text>
-  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#8196A7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g clip-path="url(#window-clip)" opacity="0.2">
+    <ellipse cx="518" cy="169" rx="178" ry="60" fill="url(#flare)"/>
+    <path d="M25 328C155 249 226 340 347 256S539 270 630 184" fill="none" stroke="url(#caustic)" stroke-width="17" filter="url(#soft-glow)"/>
+  </g>
+  <rect x="32" y="156" width="576" height="164" rx="17" fill="none" stroke="#FFFFFF" stroke-opacity="0.52"/>
+  <path d="M46 160h141M452 316h142" stroke="#DBFDFF" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="300" cy="156" r="3" fill="#FFFFFF"/>
+  <ellipse cx="365" cy="155" rx="36" ry="10" fill="url(#flare)"/>
+  <ellipse cx="36" cy="314" rx="28" ry="11" fill="url(#flare)" opacity="0.75"/>
+  <ellipse cx="606" cy="309" rx="32" ry="11" fill="url(#flare)" opacity="0.75"/>
+  <circle cx="40" cy="340" r="3" fill="#A9F7FF"/>
+  <text x="50" y="344" fill="#E4F9FF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">TRACEABLE MEETING REVIEW</text>
+  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#EEFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
