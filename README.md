@@ -24,6 +24,11 @@
   <a href="https://github.com/MN0709/xuanfudao"><img width="49%" src="./assets/showcase-cards/product_4.svg" alt="悬浮岛：Mac 顶部工作台；待办、专注、电脑状态" /></a>
 </p>
 
+<p align="center">
+  <img width="49%" src="./assets/showcase-cards/product-dream-factory.png" alt="产品梦工厂：AI 桌面工作台；对话协作、项目文件、模型对比" />
+</p>
+<p align="center"><sub>产品梦工厂源码仓库整理中</sub></p>
+
 <details>
 <summary><strong>更多精选项目</strong></summary>
 
