@@ -1,3 +1,17 @@
+# 你好，我是马宁 👋
+
+<p align="center">
+  <a href="https://mn0709.github.io/"><img width="1000" src="./assets/portfolio-launch.svg" alt="马宁的 AI 产品工作台：动态终端与人物动作，点击访问个人网站" /></a>
+</p>
+
+<p align="center"><sub>点击上方工作台，打开我的个人网站</sub></p>
+
+<p align="center">
+  🌐 <a href="https://mn0709.github.io/">个人网站</a> · 🧩 <a href="https://github.com/MN0709?tab=repositories">开源项目</a> · ✍️ <a href="./ARTICLES.md">全部文章</a> · ✉️ <a href="mailto:mini.ning9900@gmail.com">邮箱</a>
+</p>
+
+---
+
 ## ⭐ 精选项目
 
 <p>
