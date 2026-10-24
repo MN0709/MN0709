@@ -30,7 +30,7 @@
 - [个人网站](https://mn0709.github.io/)
 - [浏览全部公开仓库](https://github.com/MN0709?tab=repositories)
 
-MotoViz 是团队 MVP，我负责 RAG 方向的协调、检索工作与交付验收。悬浮岛基于[小普的 TO-DO Panel](https://github.com/xiaopu-ai/TO-DO-Panel) 发展，源码与许可详见[仓库说明](https://github.com/MN0709/xuanfudao)。
+MotoViz 是团队 MVP，我负责 RAG 方向的协调、检索工作与交付验收。悬浮岛的功能与源码见[仓库说明](https://github.com/MN0709/xuanfudao)。
 
 </details>
 
