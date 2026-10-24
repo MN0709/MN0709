@@ -25,9 +25,9 @@
 </p>
 
 <p align="center">
-  <img width="49%" src="./assets/showcase-cards/product-dream-factory.png" alt="产品梦工厂：AI 桌面工作台；对话协作、项目文件、模型对比" />
+  <a href="https://github.com/MN0709/product-dream-factory"><img width="49%" src="./assets/showcase-cards/product-dream-factory.png" alt="产品梦工厂：AI 桌面工作台；对话协作、项目文件、模型对比" /></a>
 </p>
-<p align="center"><sub>产品梦工厂源码仓库整理中</sub></p>
+<p align="center"><sub>产品梦工厂 · AI 协作、项目文件与模型对比</sub></p>
 
 <details>
 <summary><strong>更多精选项目</strong></summary>
