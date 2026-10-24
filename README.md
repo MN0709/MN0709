@@ -1,13 +1,13 @@
 ## ⭐ 精选项目
 
 <p>
-  <a href="https://github.com/MN0709/meeting-review"><img width="49%" src="./assets/showcase-cards.svg#product_1" alt="会脉：我的会议记忆；录音转写、原话可追溯" /></a>
-  <a href="https://github.com/MN0709/DeskResearch"><img width="49%" src="./assets/showcase-cards.svg#product_2" alt="DeskResearch：让调研有据可查；公开来源、引用导出" /></a>
+  <a href="https://github.com/MN0709/meeting-review"><img width="49%" src="./assets/showcase-cards/product_1.svg" alt="会脉：我的会议记忆；录音转写、原话可追溯" /></a>
+  <a href="https://github.com/MN0709/DeskResearch"><img width="49%" src="./assets/showcase-cards/product_2.svg" alt="DeskResearch：让调研有据可查；公开来源、引用导出" /></a>
 </p>
 
 <p>
-  <a href="https://github.com/MN0709/MotoViz"><img width="49%" src="./assets/showcase-cards.svg#product_3" alt="MotoViz：摩托改装可视化；团队 MVP，RAG 协作" /></a>
-  <a href="https://github.com/MN0709/xuanfudao"><img width="49%" src="./assets/showcase-cards.svg#product_4" alt="悬浮岛：Mac 顶部工作台；待办、专注、电脑状态" /></a>
+  <a href="https://github.com/MN0709/MotoViz"><img width="49%" src="./assets/showcase-cards/product_3.svg" alt="MotoViz：摩托改装可视化；团队 MVP，RAG 协作" /></a>
+  <a href="https://github.com/MN0709/xuanfudao"><img width="49%" src="./assets/showcase-cards/product_4.svg" alt="悬浮岛：Mac 顶部工作台；待办、专注、电脑状态" /></a>
 </p>
 
 <details>
@@ -23,8 +23,8 @@ MotoViz 是团队 MVP，我负责 RAG 方向的协调、检索工作与交付验
 ## 📚 知识文档
 
 <p>
-  <a href="https://github.com/MN0709/meeting-review/blob/main/docs/PRODUCT_SPEC_V1.md"><img width="49%" src="./assets/showcase-cards.svg#document_1" alt="产品设计：会脉产品规格 V1，产品定位、信息架构与信任规则" /></a>
-  <a href="https://github.com/MN0709/MotoViz/blob/main/docs/api-contract.md"><img width="49%" src="./assets/showcase-cards.svg#document_2" alt="接口协作：MotoViz 仓库的 3D、RAG 与前端 API 契约" /></a>
+  <a href="https://github.com/MN0709/meeting-review/blob/main/docs/PRODUCT_SPEC_V1.md"><img width="49%" src="./assets/showcase-cards/document_1.svg" alt="产品设计：会脉产品规格 V1，产品定位、信息架构与信任规则" /></a>
+  <a href="https://github.com/MN0709/MotoViz/blob/main/docs/api-contract.md"><img width="49%" src="./assets/showcase-cards/document_2.svg" alt="接口协作：MotoViz 仓库的 3D、RAG 与前端 API 契约" /></a>
 </p>
 
 <details>
@@ -40,8 +40,8 @@ MotoViz 是团队 MVP，我负责 RAG 方向的协调、检索工作与交付验
 ## 🧰 Skills
 
 <p>
-  <a href="https://github.com/MN0709/15s-scene-director-lite"><img width="49%" src="./assets/showcase-cards.svg#skill_1" alt="15 秒剧情镜头导演：动作连续的短片提示词 Skill 基础版" /></a>
-  <a href="https://github.com/MN0709/light-fresh-short-film"><img width="49%" src="./assets/showcase-cards.svg#skill_2" alt="光感小清新短片：5 至 30 秒视频提示词 Skill" /></a>
+  <a href="https://github.com/MN0709/15s-scene-director-lite"><img width="49%" src="./assets/showcase-cards/skill_1.svg" alt="15 秒剧情镜头导演：动作连续的短片提示词 Skill 基础版" /></a>
+  <a href="https://github.com/MN0709/light-fresh-short-film"><img width="49%" src="./assets/showcase-cards/skill_2.svg" alt="光感小清新短片：5 至 30 秒视频提示词 Skill" /></a>
 </p>
 
 <details>
